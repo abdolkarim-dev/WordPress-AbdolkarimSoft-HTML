@@ -1,0 +1,706 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AbdOliSoft — Digital Products</title>
+
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+
+  <body class="bg-[#f5f6f4] text-[#111827]">
+    <!-- =====================================================
+     NAVBAR
+===================================================== -->
+
+    <header
+      id="header"
+      class="fixed top-5 left-0 right-0 z-50 transition-all duration-300"
+    >
+      <div
+        class="mx-6 xl:mx-auto max-w-7xl h-16 px-5 flex items-center justify-between bg-white/80 backdrop-blur-xl border border-white/60 rounded-2xl shadow-sm"
+      >
+        <a href="#" class="text-xl font-bold tracking-tight">
+          Abd<span class="text-primary">Oli</span>Soft
+        </a>
+
+        <nav
+          class="hidden md:flex items-center gap-1 bg-gray-50 border border-gray-100 rounded-xl p-1"
+        >
+          <a
+            href="#"
+            class="px-4 py-2 rounded-lg bg-white shadow-sm text-primary text-sm font-medium"
+          >
+            Home
+          </a>
+
+          <a
+            href="#services"
+            class="px-4 py-2 rounded-lg text-gray-600 hover:text-primary hover:bg-white transition text-sm font-medium"
+          >
+            Services
+          </a>
+
+          <a
+            href="#projects"
+            class="px-4 py-2 rounded-lg text-gray-600 hover:text-primary hover:bg-white transition text-sm font-medium"
+          >
+            Projects
+          </a>
+
+          <a
+            href="#about"
+            class="px-4 py-2 rounded-lg text-gray-600 hover:text-primary hover:bg-white transition text-sm font-medium"
+          >
+            About
+          </a>
+
+          <a
+            href="#process"
+            class="px-4 py-2 rounded-lg text-gray-600 hover:text-primary hover:bg-white transition text-sm font-medium"
+          >
+            Process
+          </a>
+        </nav>
+
+        <a
+          href="#contact"
+          class="hidden md:flex items-center gap-2 px-6 py-2.5 bg-primary text-white rounded-lg text-sm font-medium hover:bg-emerald-700 transition"
+        >
+          Let's Talk
+        </a>
+
+        <button class="md:hidden text-xl">☰</button>
+      </div>
+    </header>
+
+    <!-- =====================================================
+     HERO
+===================================================== -->
+
+    <section class="min-h-[850px] bg-[#eef1ee] relative overflow-hidden">
+      <!-- Decorative grid -->
+      <div
+        class="absolute inset-0 opacity-[0.35]"
+        style="
+          background-image:
+            linear-gradient(#d8ddd9 1px, transparent 1px),
+            linear-gradient(90deg, #d8ddd9 1px, transparent 1px);
+          background-size: 60px 60px;
+        "
+      ></div>
+
+      <div
+        class="absolute -right-40 -top-40 w-[600px] h-[600px] rounded-full bg-primary/10 blur-3xl"
+      ></div>
+
+      <div class="relative max-w-7xl mx-auto px-6 pt-44 pb-28">
+        <div class="grid lg:grid-cols-[1.05fr_.95fr] gap-16 items-center">
+          <!-- Hero text -->
+
+          <div>
+            <div class="flex items-center gap-3 mb-7">
+              <span class="w-2.5 h-2.5 bg-primary rounded-full"></span>
+
+              <span class="text-sm font-medium text-gray-500">
+                Software Development Studio
+              </span>
+            </div>
+
+            <h1
+              class="text-6xl md:text-7xl xl:text-[82px] font-bold tracking-[-0.05em] leading-[.95]"
+            >
+              Digital ideas.
+              <br />
+
+              <span class="text-primary"> Built better. </span>
+            </h1>
+
+            <p class="mt-8 max-w-xl text-lg text-gray-500 leading-8">
+              AbdOliSoft designs and develops modern websites, web applications
+              and digital products for ambitious businesses.
+            </p>
+
+            <div class="flex flex-wrap items-center gap-4 mt-10">
+              <a
+                href="#projects"
+                class="px-6 py-3.5 bg-gray-900 text-white rounded-xl font-medium hover:bg-primary transition"
+              >
+                Explore our work
+              </a>
+
+              <a
+                href="#services"
+                class="px-6 py-3.5 bg-white border border-gray-200 rounded-xl font-medium hover:border-gray-400 transition"
+              >
+                What we do
+              </a>
+            </div>
+          </div>
+
+          <!-- Code Window -->
+
+          <div class="relative">
+            <div class="absolute -inset-8 bg-primary/10 blur-3xl"></div>
+
+            <div
+              class="relative bg-[#101413] rounded-3xl overflow-hidden shadow-2xl border border-white/10 rotate-[1deg]"
+            >
+              <!-- Browser bar -->
+
+              <div class="h-14 px-6 border-b border-white/10 flex items-center">
+                <div class="flex gap-2">
+                  <span class="w-3 h-3 rounded-full bg-red-400/80"></span>
+                  <span class="w-3 h-3 rounded-full bg-yellow-400/80"></span>
+                  <span class="w-3 h-3 rounded-full bg-green-400/80"></span>
+                </div>
+
+                <div class="mx-auto text-xs text-gray-500">abdolisoft.dev</div>
+              </div>
+
+              <!-- Code -->
+
+              <div class="p-8 md:p-10 font-mono text-sm leading-8">
+                <p>
+                  <span class="text-purple-400">const</span>
+                  <span class="text-blue-300"> product</span>
+                  <span class="text-gray-500"> = {</span>
+                </p>
+
+                <p class="pl-6">
+                  <span class="text-gray-500">name:</span>
+                  <span class="text-green-400"> "AbdOliSoft"</span>,
+                </p>
+
+                <p class="pl-6">
+                  <span class="text-gray-500">design:</span>
+                  <span class="text-green-400"> "Modern"</span>,
+                </p>
+
+                <p class="pl-6">
+                  <span class="text-gray-500">performance:</span>
+                  <span class="text-orange-300"> "Fast"</span>,
+                </p>
+
+                <p class="pl-6">
+                  <span class="text-gray-500">quality:</span>
+                  <span class="text-orange-300"> true</span>
+                </p>
+
+                <p>
+                  <span class="text-gray-500">};</span>
+                </p>
+
+                <div class="my-7 h-px bg-white/10"></div>
+
+                <p>
+                  <span class="text-purple-400">function</span>
+                  <span class="text-blue-300"> createExperience</span>
+                  <span class="text-gray-500">() {</span>
+                </p>
+
+                <p class="pl-6">
+                  <span class="text-purple-400">return</span>
+                  <span class="text-green-400"> "Something meaningful." </span>;
+                </p>
+
+                <p>
+                  <span class="text-gray-500">}</span>
+                </p>
+
+                <div class="mt-10 flex items-center gap-3">
+                  <span class="w-2 h-2 rounded-full bg-primary"></span>
+
+                  <span class="text-xs text-gray-500"> Ready to build </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+     INTRO / STATS
+===================================================== -->
+
+    <section class="bg-gray-950 text-white">
+      <div class="max-w-7xl mx-auto px-6 py-20">
+        <div class="grid lg:grid-cols-[1.4fr_1fr] gap-16 items-center">
+          <div>
+            <p
+              class="text-primary text-sm font-semibold uppercase tracking-widest"
+            >
+              We build for the web
+            </p>
+
+            <h2 class="text-3xl md:text-4xl font-bold mt-5 leading-tight">
+              From a simple idea to a complete digital product.
+            </h2>
+          </div>
+
+          <div class="grid grid-cols-2 gap-x-10 gap-y-8">
+            <div>
+              <p class="text-4xl font-bold">20+</p>
+              <p class="text-gray-500 mt-2 text-sm">Projects</p>
+            </div>
+
+            <div>
+              <p class="text-4xl font-bold">10+</p>
+              <p class="text-gray-500 mt-2 text-sm">Technologies</p>
+            </div>
+
+            <div>
+              <p class="text-4xl font-bold">5+</p>
+              <p class="text-gray-500 mt-2 text-sm">Years Experience</p>
+            </div>
+
+            <div>
+              <p class="text-4xl font-bold text-primary">100%</p>
+              <p class="text-gray-500 mt-2 text-sm">Commitment</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+     SERVICES
+===================================================== -->
+
+    <section id="services" class="bg-[#f5f6f4]">
+      <div class="max-w-7xl mx-auto px-6 py-28">
+        <div class="max-w-2xl">
+          <div class="flex items-center gap-3">
+            <span class="text-primary font-mono text-sm"> 01 </span>
+
+            <span class="h-px w-10 bg-primary"></span>
+
+            <span class="text-gray-500 text-sm uppercase tracking-widest">
+              Services
+            </span>
+          </div>
+
+          <h2 class="text-5xl md:text-6xl font-bold mt-6 tracking-tight">
+            What we
+            <span class="text-primary"> do.</span>
+          </h2>
+        </div>
+
+        <div class="mt-16 border-t border-gray-300">
+          <!-- Service 01 -->
+
+          <div
+            class="group grid md:grid-cols-[100px_1fr_1fr] gap-8 py-10 border-b border-gray-300 hover:px-5 transition-all"
+          >
+            <span class="font-mono text-sm text-gray-400"> 01 </span>
+
+            <h3 class="text-3xl font-bold group-hover:text-primary transition">
+              Web Development
+            </h3>
+
+            <div class="flex justify-between gap-6">
+              <p class="text-gray-500 leading-7 max-w-md">
+                Responsive, fast and maintainable websites built with modern
+                technologies.
+              </p>
+
+              <span class="text-2xl group-hover:text-primary transition">
+                ↗
+              </span>
+            </div>
+          </div>
+
+          <!-- Service 02 -->
+
+          <div
+            class="group grid md:grid-cols-[100px_1fr_1fr] gap-8 py-10 border-b border-gray-300 hover:px-5 transition-all"
+          >
+            <span class="font-mono text-sm text-gray-400"> 02 </span>
+
+            <h3 class="text-3xl font-bold group-hover:text-primary transition">
+              UI / UX Design
+            </h3>
+
+            <div class="flex justify-between gap-6">
+              <p class="text-gray-500 leading-7 max-w-md">
+                Interfaces that are simple, intuitive and designed around real
+                users.
+              </p>
+
+              <span class="text-2xl group-hover:text-primary transition">
+                ↗
+              </span>
+            </div>
+          </div>
+
+          <!-- Service 03 -->
+
+          <div
+            class="group grid md:grid-cols-[100px_1fr_1fr] gap-8 py-10 border-b border-gray-300 hover:px-5 transition-all"
+          >
+            <span class="font-mono text-sm text-gray-400"> 03 </span>
+
+            <h3 class="text-3xl font-bold group-hover:text-primary transition">
+              WordPress
+            </h3>
+
+            <div class="flex justify-between gap-6">
+              <p class="text-gray-500 leading-7 max-w-md">
+                Custom WordPress themes and flexible content-driven websites.
+              </p>
+
+              <span class="text-2xl group-hover:text-primary transition">
+                ↗
+              </span>
+            </div>
+          </div>
+
+          <!-- Service 04 -->
+
+          <div
+            class="group grid md:grid-cols-[100px_1fr_1fr] gap-8 py-10 border-b border-gray-300 hover:px-5 transition-all"
+          >
+            <span class="font-mono text-sm text-gray-400"> 04 </span>
+
+            <h3 class="text-3xl font-bold group-hover:text-primary transition">
+              Web Applications
+            </h3>
+
+            <div class="flex justify-between gap-6">
+              <p class="text-gray-500 leading-7 max-w-md">
+                Custom applications designed around your business workflow.
+              </p>
+
+              <span class="text-2xl group-hover:text-primary transition">
+                ↗
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+     ABOUT
+===================================================== -->
+
+    <section id="about" class="bg-white">
+      <div class="max-w-7xl mx-auto px-6 py-28">
+        <div class="grid lg:grid-cols-2 gap-20">
+          <div>
+            <span class="text-primary font-mono text-sm"> 02 — ABOUT </span>
+
+            <h2 class="text-5xl md:text-6xl font-bold mt-6 tracking-tight">
+              We believe
+              <span class="text-primary"> good software</span>
+              should feel simple.
+            </h2>
+          </div>
+
+          <div class="pt-3">
+            <p class="text-xl leading-9 text-gray-500">
+              AbdOliSoft is a software development company focused on creating
+              useful, modern and reliable digital products.
+            </p>
+
+            <p class="text-gray-500 leading-8 mt-7">
+              We combine thoughtful design with modern technologies to create
+              experiences that are easy to understand, easy to use and built to
+              last.
+            </p>
+
+            <a
+              href="#"
+              class="inline-flex items-center gap-3 mt-8 font-semibold border-b-2 border-primary pb-2"
+            >
+              More about us
+              <span>↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+     PROJECTS
+===================================================== -->
+
+    <section id="projects" class="bg-gray-950 text-white">
+      <div class="max-w-7xl mx-auto px-6 py-28">
+        <div
+          class="flex flex-col md:flex-row md:items-end justify-between gap-8"
+        >
+          <div>
+            <span class="text-primary font-mono text-sm">
+              03 — SELECTED WORK
+            </span>
+
+            <h2 class="text-5xl md:text-6xl font-bold mt-6 tracking-tight">
+              Things we've
+              <span class="text-primary"> built.</span>
+            </h2>
+          </div>
+
+          <a href="#" class="text-gray-400 hover:text-white transition">
+            View all projects ↗
+          </a>
+        </div>
+
+        <!-- Featured project -->
+
+        <article class="mt-16">
+          <div
+            class="h-[420px] rounded-3xl bg-[#171d1b] border border-white/10 flex items-center justify-center overflow-hidden group"
+          >
+            <div class="text-center">
+              <span class="text-primary font-mono text-sm"> PROJECT 01 </span>
+
+              <h3
+                class="text-5xl md:text-7xl font-bold mt-5 group-hover:text-primary transition"
+              >
+                Digital Platform
+              </h3>
+
+              <p class="text-gray-500 mt-5">Web Development · UI/UX</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Smaller projects -->
+
+        <div class="grid md:grid-cols-2 gap-6 mt-6">
+          <article>
+            <div
+              class="h-72 rounded-3xl bg-[#eef1ee] text-gray-900 flex items-center justify-center group"
+            >
+              <div class="text-center">
+                <span class="text-primary font-mono text-sm"> PROJECT 02 </span>
+
+                <h3
+                  class="text-4xl font-bold mt-4 group-hover:text-primary transition"
+                >
+                  Management App
+                </h3>
+              </div>
+            </div>
+          </article>
+
+          <article>
+            <div
+              class="h-72 rounded-3xl bg-primary/20 flex items-center justify-center group"
+            >
+              <div class="text-center">
+                <span class="text-primary font-mono text-sm"> PROJECT 03 </span>
+
+                <h3
+                  class="text-4xl font-bold mt-4 group-hover:text-primary transition"
+                >
+                  Corporate Website
+                </h3>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+     PROCESS
+===================================================== -->
+
+    <section class="bg-[#eef1ee]">
+      <div class="max-w-7xl mx-auto px-6 py-28">
+        <div class="grid lg:grid-cols-[.7fr_1.3fr] gap-16">
+          <div>
+            <span class="text-primary font-mono text-sm"> 04 — PROCESS </span>
+
+            <h2 class="text-5xl font-bold mt-6 tracking-tight">
+              How we
+              <span class="text-primary"> work.</span>
+            </h2>
+          </div>
+
+          <div>
+            <div class="py-7 border-t-2 border-gray-900">
+              <div class="flex gap-8">
+                <span class="font-mono text-primary"> 01 </span>
+
+                <div>
+                  <h3 class="text-2xl font-bold">Discover</h3>
+
+                  <p class="text-gray-500 mt-3 leading-7">
+                    Understand the business, users and goals.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="py-7 border-t border-gray-300">
+              <div class="flex gap-8">
+                <span class="font-mono text-gray-400"> 02 </span>
+
+                <div>
+                  <h3 class="text-2xl font-bold">Design</h3>
+
+                  <p class="text-gray-500 mt-3 leading-7">
+                    Create the structure and visual direction.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="py-7 border-t border-gray-300">
+              <div class="flex gap-8">
+                <span class="font-mono text-gray-400"> 03 </span>
+
+                <div>
+                  <h3 class="text-2xl font-bold">Develop</h3>
+
+                  <p class="text-gray-500 mt-3 leading-7">
+                    Build the product with clean and reliable code.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="py-7 border-y border-gray-300">
+              <div class="flex gap-8">
+                <span class="font-mono text-gray-400"> 04 </span>
+
+                <div>
+                  <h3 class="text-2xl font-bold">Launch</h3>
+
+                  <p class="text-gray-500 mt-3 leading-7">
+                    Test, refine and deliver the final product.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+     CTA
+===================================================== -->
+
+    <section id="contact" class="bg-white px-6 py-28">
+      <div class="max-w-6xl mx-auto">
+        <div
+          class="rounded-[2rem] bg-primary px-8 py-20 md:px-16 relative overflow-hidden"
+        >
+          <div
+            class="absolute -right-20 -bottom-40 w-96 h-96 rounded-full bg-white/10 blur-2xl"
+          ></div>
+
+          <div class="relative max-w-3xl">
+            <span class="text-white/70 font-mono text-sm">
+              HAVE A PROJECT?
+            </span>
+
+            <h2
+              class="text-5xl md:text-7xl text-white font-bold tracking-tight mt-5"
+            >
+              Let's build
+              <br />
+              something great.
+            </h2>
+
+            <a
+              href="mailto:hello@abdolisoft.com"
+              class="inline-flex items-center gap-3 mt-9 bg-gray-950 text-white px-7 py-4 rounded-xl font-medium hover:bg-white hover:text-gray-900 transition"
+            >
+              Start a conversation
+
+              <span>↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+     FOOTER
+===================================================== -->
+
+    <footer class="bg-gray-950 text-white">
+      <div class="max-w-7xl mx-auto px-6 pt-20 pb-8">
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
+          <!-- Brand -->
+
+          <div class="lg:col-span-2">
+            <div class="text-3xl font-bold">
+              Abd<span class="text-primary">Oli</span>Soft
+            </div>
+
+            <p class="text-gray-500 max-w-sm leading-7 mt-5">
+              We design and build modern digital products for businesses that
+              want to move forward.
+            </p>
+          </div>
+
+          <!-- Navigation -->
+
+          <div>
+            <h3 class="font-semibold">Explore</h3>
+
+            <ul class="mt-5 space-y-3 text-sm text-gray-500">
+              <li>
+                <a href="#about" class="hover:text-primary transition">
+                  About
+                </a>
+              </li>
+
+              <li>
+                <a href="#services" class="hover:text-primary transition">
+                  Services
+                </a>
+              </li>
+
+              <li>
+                <a href="#projects" class="hover:text-primary transition">
+                  Projects
+                </a>
+              </li>
+
+              <li>
+                <a href="#contact" class="hover:text-primary transition">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+
+          <div>
+            <h3 class="font-semibold">Contact</h3>
+
+            <div class="mt-5 space-y-3 text-sm text-gray-500">
+              <p>hello@abdolisoft.com</p>
+              <p>Tehran, Iran</p>
+
+              <div class="flex gap-4 pt-3">
+                <a href="#" class="hover:text-primary transition"> GitHub </a>
+
+                <a href="#" class="hover:text-primary transition"> LinkedIn </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="border-t border-gray-800 mt-16 pt-7 flex flex-col md:flex-row justify-between gap-4"
+        >
+          <p class="text-sm text-gray-600">
+            © 2026 AbdOliSoft. All rights reserved.
+          </p>
+
+          <p class="text-sm text-gray-600">Built with care.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
