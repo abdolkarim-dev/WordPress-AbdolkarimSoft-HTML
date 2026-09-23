@@ -575,6 +575,9 @@
   .rotate-\[1deg\] {
     rotate: 1deg;
   }
+  .cursor-pointer {
+    cursor: pointer;
+  }
   .resize {
     resize: both;
   }
