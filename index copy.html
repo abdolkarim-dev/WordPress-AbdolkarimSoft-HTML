@@ -3,201 +3,103 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>AbdOliSoft — Software Development</title>
-
+    <title>AbdOliSoft — Digital Products</title>
     <link rel="stylesheet" href="./output.css" />
   </head>
 
-  <body class="bg-white text-gray-900">
-    <!-- =====================================================
-     NAVBAR
-===================================================== -->
-
-    <header
-      class="sticky top-0 z-50 border-b border-gray-200/80 bg-white/95 backdrop-blur"
-    >
-      <div
-        class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between"
-      >
-        <a href="#" class="text-2xl font-bold tracking-tight">
+  <body class="bg-[#f5f6f4] text-[#111827] antialiased">
+    
+    <!-- Header: حذف بک‌دراپ بلور و بوردر برای ظاهری مینیمال‌تر و شفاف‌تر -->
+    <header id="header" class="fixed top-5 left-0 right-0 z-50 transition-all duration-300">
+      <div class="mx-6 xl:mx-auto max-w-7xl h-14 px-6 flex items-center justify-between bg-white/70 backdrop-blur-md rounded-full shadow-sm">
+        <a href="#" class="text-lg font-bold tracking-tight">
           Abd<span class="text-primary">Oli</span>Soft
         </a>
 
-        <nav
-          class="hidden md:flex items-center gap-1 bg-gray-50 border border-gray-100 rounded-xl p-1"
-        >
-          <a
-            href="#"
-            class="px-4 py-2 rounded-lg bg-white shadow-sm text-primary text-sm font-medium"
-          >
-            Home
-          </a>
-
-          <a
-            href="#services"
-            class="px-4 py-2 rounded-lg text-gray-600 hover:text-primary hover:bg-white transition text-sm font-medium"
-          >
-            Services
-          </a>
-
-          <a
-            href="#projects"
-            class="px-4 py-2 rounded-lg text-gray-600 hover:text-primary hover:bg-white transition text-sm font-medium"
-          >
-            Projects
-          </a>
-
-          <a
-            href="#about"
-            class="px-4 py-2 rounded-lg text-gray-600 hover:text-primary hover:bg-white transition text-sm font-medium"
-          >
-            About
-          </a>
-
-          <a
-            href="#process"
-            class="px-4 py-2 rounded-lg text-gray-600 hover:text-primary hover:bg-white transition text-sm font-medium"
-          >
-            Process
-          </a>
+        <!-- Nav: ساده‌سازی ناوبار و حذف بک‌گراند خاکستری اضافه -->
+        <nav class="hidden md:flex items-center gap-8">
+          <a href="#" class="text-sm font-medium text-primary">Home</a>
+          <a href="#services" class="text-sm font-medium text-gray-500 hover:text-primary transition">Services</a>
+          <a href="#projects" class="text-sm font-medium text-gray-500 hover:text-primary transition">Projects</a>
+          <a href="#about" class="text-sm font-medium text-gray-500 hover:text-primary transition">About</a>
+          <a href="#process" class="text-sm font-medium text-gray-500 hover:text-primary transition">Process</a>
         </nav>
 
-        <a
-          href="#contact"
-          class="hidden md:inline-flex items-center gap-2 bg-gray-900 text-white px-5 py-2.5 rounded-xl text-sm font-medium hover:bg-primary transition"
-        >
+        <a href="#contact" class="hidden md:flex items-center gap-2 px-5 py-2 bg-gray-900 text-white rounded-full text-sm font-medium hover:bg-primary transition">
           Let's Talk
-          <span>→</span>
         </a>
 
-        <button class="md:hidden text-gray-700 text-xl">☰</button>
+        <button class="md:hidden text-xl">☰</button>
       </div>
     </header>
 
-    <!-- =====================================================
-     HERO
-===================================================== -->
-
-    <section class="relative overflow-hidden bg-gray-50">
-      <div
-        class="absolute -top-40 -right-40 w-[500px] h-[500px] rounded-full bg-primary/5"
-      ></div>
-
-      <div class="max-w-7xl mx-auto px-6 py-24 lg:py-32">
-        <div class="grid lg:grid-cols-2 gap-16 items-center">
-          <!-- Hero Content -->
-
+    <!-- Hero: حذف خطوط گرید تزئینی و ساده‌سازی بک‌گراند -->
+    <section class="min-h-[850px] bg-[#f5f6f4] relative overflow-hidden">
+      <div class="absolute -right-40 -top-40 w-[600px] h-[600px] rounded-full bg-primary/5 blur-3xl"></div>
+      
+      <div class="relative max-w-7xl mx-auto px-6 pt-44 pb-28">
+        <div class="grid lg:grid-cols-2 gap-20 items-center">
+          
           <div>
-            <div
-              class="inline-flex items-center gap-2 border border-gray-200 bg-white rounded-full px-4 py-2 text-sm text-gray-500 shadow-sm"
-            >
-              <span class="w-2 h-2 rounded-full bg-primary"></span>
-
-              Software Development Company
-            </div>
-
-            <h1
-              class="mt-7 text-5xl md:text-6xl font-bold tracking-tight leading-[1.05]"
-            >
-              We build
-
-              <span class="text-primary"> digital products </span>
-
-              for modern businesses.
+            <h1 class="text-6xl md:text-7xl xl:text-[80px] font-bold tracking-[-0.04em] leading-[.92]">
+              Digital ideas.
+              <br />
+              <span class="text-primary">Built better.</span>
             </h1>
 
-            <p class="mt-7 text-lg text-gray-500 leading-relaxed max-w-xl">
-              We design and develop modern websites and web applications that
-              help businesses turn ideas into reliable digital products.
+            <p class="mt-8 max-w-md text-lg text-gray-500 leading-8">
+              We design and develop modern websites and digital products for ambitious businesses.
             </p>
 
-            <div class="flex flex-wrap gap-4 mt-9">
-              <a
-                href="#projects"
-                class="bg-primary text-white px-6 py-3.5 rounded-xl font-medium hover:bg-emerald-700 transition"
-              >
-                Explore Projects
-              </a>
-
-              <a
-                href="#contact"
-                class="bg-white border border-gray-200 px-6 py-3.5 rounded-xl font-medium hover:border-gray-400 transition"
-              >
-                Start a Project
+            <div class="flex flex-wrap items-center gap-4 mt-10">
+              <a href="#projects" class="px-6 py-3.5 bg-gray-900 text-white rounded-xl font-medium hover:bg-primary transition">
+                Explore our work
               </a>
             </div>
           </div>
 
-          <!-- Code Panel -->
-
-          <div class="relative">
-            <div
-              class="absolute -inset-5 bg-primary/10 rounded-[2rem] blur-2xl"
-            ></div>
-
-            <div
-              class="relative rounded-2xl bg-gray-950 shadow-2xl overflow-hidden border border-gray-800"
-            >
+          <!-- Code Window: ساده‌سازی شدید پنجره کد برای حالت Raycast/Minimal -->
+          <div class="relative hidden lg:block">
+            <div class="absolute -inset-4 bg-primary/5 blur-3xl"></div>
+            
+            <div class="relative bg-gray-950 rounded-2xl overflow-hidden border border-gray-800 p-8">
+              
               <!-- Window Header -->
-
-              <div class="h-12 px-5 flex items-center border-b border-gray-800">
-                <div class="flex gap-2">
-                  <span class="w-3 h-3 rounded-full bg-red-400"></span>
-                  <span class="w-3 h-3 rounded-full bg-yellow-400"></span>
-                  <span class="w-3 h-3 rounded-full bg-green-400"></span>
-                </div>
-
-                <div class="mx-auto text-xs text-gray-500">abdolisoft.dev</div>
+              <div class="flex items-center gap-2 mb-6">
+                <span class="w-3 h-3 rounded-full bg-red-400/80"></span>
+                <span class="w-3 h-3 rounded-full bg-yellow-400/80"></span>
+                <span class="w-3 h-3 rounded-full bg-green-400/80"></span>
+                <span class="ml-4 text-xs text-gray-600 font-mono">abdolkarim_dev</span>
               </div>
 
               <!-- Code -->
-
-              <div class="p-7 font-mono text-sm leading-8">
+              <div class="font-mono text-sm leading-8 text-gray-400">
                 <div>
                   <span class="text-purple-400">const</span>
-                  <span class="text-blue-300"> company</span>
-                  <span class="text-gray-400"> = {</span>
+                  <span class="text-blue-300"> company</span> = {
                 </div>
-
                 <div class="pl-6">
                   <span class="text-gray-500">name:</span>
                   <span class="text-green-400"> "AbdOliSoft"</span>,
                 </div>
-
                 <div class="pl-6">
                   <span class="text-gray-500">focus:</span>
                   <span class="text-green-400"> "Web Development"</span>,
                 </div>
-
                 <div class="pl-6">
                   <span class="text-gray-500">quality:</span>
-                  <span class="text-orange-300"> true</span>,
-                </div>
-
-                <div class="pl-6">
-                  <span class="text-gray-500">modern:</span>
                   <span class="text-orange-300"> true</span>
                 </div>
-
-                <div>
-                  <span class="text-gray-400">};</span>
-                </div>
-
+                <div>};</div>
                 <div class="mt-6">
                   <span class="text-purple-400">function</span>
-                  <span class="text-blue-300"> build</span>
-                  <span class="text-gray-400">() {</span>
+                  <span class="text-blue-300"> build</span>() {
                 </div>
-
                 <div class="pl-6">
                   <span class="text-purple-400">return</span>
                   <span class="text-green-400"> "Something great"</span>;
                 </div>
-
-                <div>
-                  <span class="text-gray-400">}</span>
-                </div>
+                <div>}</div>
               </div>
             </div>
           </div>
@@ -205,370 +107,122 @@
       </div>
     </section>
 
-    <!-- =====================================================
-     STATS
-===================================================== -->
-
-    <section class="border-b border-gray-200 bg-white">
-      <div class="max-w-7xl mx-auto px-6 py-12">
-        <div class="grid grid-cols-2 md:grid-cols-4 divide-x divide-gray-200">
-          <div class="px-6 first:pl-0">
-            <p class="text-3xl font-bold">20+</p>
-            <p class="text-sm text-gray-500 mt-1">Projects</p>
+    <!-- Stats: حذف خطوط جداکننده (Divide) برای ظاهری نرم‌تر -->
+    <section class="bg-gray-950 text-white">
+      <div class="max-w-7xl mx-auto px-6 py-20">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-10">
+          <div>
+            <p class="text-4xl font-bold tracking-tight">20+</p>
+            <p class="text-gray-500 mt-2 text-sm">Projects</p>
           </div>
-
-          <div class="px-6">
-            <p class="text-3xl font-bold">5+</p>
-            <p class="text-sm text-gray-500 mt-1">Years Experience</p>
+          <div>
+            <p class="text-4xl font-bold tracking-tight">10+</p>
+            <p class="text-gray-500 mt-2 text-sm">Technologies</p>
           </div>
-
-          <div class="px-6">
-            <p class="text-3xl font-bold">10+</p>
-            <p class="text-sm text-gray-500 mt-1">Technologies</p>
+          <div>
+            <p class="text-4xl font-bold tracking-tight">5+</p>
+            <p class="text-gray-500 mt-2 text-sm">Years Experience</p>
           </div>
-
-          <div class="px-6">
-            <p class="text-3xl font-bold text-primary">100%</p>
-            <p class="text-sm text-gray-500 mt-1">Commitment</p>
+          <div>
+            <p class="text-4xl font-bold tracking-tight text-primary">100%</p>
+            <p class="text-gray-500 mt-2 text-sm">Commitment</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- =====================================================
-     ABOUT
-===================================================== -->
-
-    <section id="about" class="bg-white">
-      <div class="max-w-7xl mx-auto px-6 py-28">
-        <div class="grid lg:grid-cols-2 gap-20 items-center">
-          <div>
-            <div class="flex items-center gap-3">
-              <span class="w-10 h-px bg-primary"></span>
-
-              <span
-                class="text-primary font-semibold text-sm uppercase tracking-wider"
-              >
-                About AbdOliSoft
-              </span>
-            </div>
-
-            <h2 class="text-4xl md:text-5xl font-bold mt-5 leading-tight">
-              Technology should make
-              <span class="text-primary"> things simpler.</span>
-            </h2>
-          </div>
-
-          <div>
-            <p class="text-gray-500 leading-8">
-              AbdOliSoft is a software development company focused on creating
-              modern digital experiences for businesses.
-            </p>
-
-            <p class="text-gray-500 leading-8 mt-5">
-              We combine clean design, modern technologies and practical
-              solutions to build websites and applications that are easy to use
-              and maintain.
-            </p>
-
-            <a
-              href="#"
-              class="inline-flex items-center gap-2 mt-7 font-semibold text-primary"
-            >
-              Discover our story
-              <span>→</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- =====================================================
-     SERVICES
-===================================================== -->
-
-    <section id="services" class="bg-gray-50 border-y border-gray-100">
-      <div class="max-w-7xl mx-auto px-6 py-28">
-        <div
-          class="flex flex-col md:flex-row md:items-end justify-between gap-6"
-        >
-          <div>
-            <div class="flex items-center gap-3">
-              <span class="w-10 h-px bg-primary"></span>
-
-              <span
-                class="text-primary font-semibold text-sm uppercase tracking-wider"
-              >
-                What We Do
-              </span>
-            </div>
-
-            <h2 class="text-4xl md:text-5xl font-bold mt-5">Our Services</h2>
-          </div>
-
-          <p class="text-gray-500 max-w-md leading-relaxed">
-            From websites to custom applications, we build digital solutions
-            around your needs.
-          </p>
-        </div>
-
-        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-5 mt-14">
-          <!-- Service -->
-
-          <div
-            class="bg-white border border-gray-200 rounded-2xl p-7 hover:-translate-y-1 hover:shadow-xl transition"
-          >
-            <div
-              class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center font-bold text-lg"
-            >
-              &lt;/&gt;
-            </div>
-
-            <h3 class="text-xl font-semibold mt-7">Web Development</h3>
-
-            <p class="text-gray-500 text-sm leading-7 mt-3">
-              Responsive and maintainable websites built with modern
-              technologies.
-            </p>
-
-            <a
-              href="#"
-              class="inline-block mt-6 text-sm font-semibold text-primary"
-            >
-              Learn more →
-            </a>
-          </div>
-
-          <div
-            class="bg-white border border-gray-200 rounded-2xl p-7 hover:-translate-y-1 hover:shadow-xl transition"
-          >
-            <div
-              class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center font-bold"
-            >
-              UX
-            </div>
-
-            <h3 class="text-xl font-semibold mt-7">UI / UX Design</h3>
-
-            <p class="text-gray-500 text-sm leading-7 mt-3">
-              Clean and intuitive interfaces designed around real users.
-            </p>
-
-            <a
-              href="#"
-              class="inline-block mt-6 text-sm font-semibold text-primary"
-            >
-              Learn more →
-            </a>
-          </div>
-
-          <div
-            class="bg-white border border-gray-200 rounded-2xl p-7 hover:-translate-y-1 hover:shadow-xl transition"
-          >
-            <div
-              class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center font-bold"
-            >
-              WP
-            </div>
-
-            <h3 class="text-xl font-semibold mt-7">WordPress</h3>
-
-            <p class="text-gray-500 text-sm leading-7 mt-3">
-              Custom WordPress themes and flexible content solutions.
-            </p>
-
-            <a
-              href="#"
-              class="inline-block mt-6 text-sm font-semibold text-primary"
-            >
-              Learn more →
-            </a>
-          </div>
-
-          <div
-            class="bg-white border border-gray-200 rounded-2xl p-7 hover:-translate-y-1 hover:shadow-xl transition"
-          >
-            <div
-              class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center font-bold"
-            >
-              ◇
-            </div>
-
-            <h3 class="text-xl font-semibold mt-7">Web Applications</h3>
-
-            <p class="text-gray-500 text-sm leading-7 mt-3">
-              Custom applications designed around your business workflow.
-            </p>
-
-            <a
-              href="#"
-              class="inline-block mt-6 text-sm font-semibold text-primary"
-            >
-              Learn more →
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- =====================================================
-     PROJECTS
-===================================================== -->
-
+    <!-- Projects: حذف بک‌گراند‌های تزئینی کارت‌ها و استفاده از فضای سفید -->
     <section id="projects" class="bg-white">
       <div class="max-w-7xl mx-auto px-6 py-28">
-        <div
-          class="flex flex-col md:flex-row md:items-end justify-between gap-6"
-        >
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
           <div>
-            <div class="flex items-center gap-3">
-              <span class="w-10 h-px bg-primary"></span>
-
-              <span
-                class="text-primary font-semibold text-sm uppercase tracking-wider"
-              >
-                Selected Work
-              </span>
-            </div>
-
-            <h2 class="text-4xl md:text-5xl font-bold mt-5">
+            <span class="text-primary font-semibold text-sm uppercase tracking-wider">
+              Selected Work
+            </span>
+            <h2 class="text-4xl md:text-5xl font-bold mt-4 tracking-tight">
               Featured Projects
             </h2>
           </div>
-
-          <a href="#" class="font-semibold text-primary">
+          <a href="#" class="font-semibold text-primary hover:text-emerald-700 transition">
             View all projects →
           </a>
         </div>
 
-        <!-- Later replaced with WordPress CPT -->
-
-        <div class="grid md:grid-cols-3 gap-6 mt-14">
-          <article class="group">
-            <div
-              class="h-72 rounded-2xl bg-gray-100 border border-gray-200 flex items-center justify-center"
-            >
-              <span
-                class="text-7xl font-bold text-gray-200 group-hover:text-primary/30 transition"
-              >
+        <div class="grid md:grid-cols-3 gap-x-8 gap-y-12">
+          <article class="group cursor-pointer">
+            <!-- جایگزینی اعداد با تصویر/گرادیان مینیمال -->
+            <div class="h-72 rounded-2xl bg-gray-100 flex items-center justify-center overflow-hidden">
+              <span class="text-7xl font-bold text-gray-200 group-hover:text-primary group-hover:scale-110 transition-all duration-300">
                 01
               </span>
             </div>
-
-            <p class="text-primary text-sm font-semibold mt-6">
-              Web Development
-            </p>
-
+            <p class="text-primary text-sm font-semibold mt-6">Web Development</p>
             <h3 class="text-xl font-bold mt-2">Business Platform</h3>
-
-            <p class="text-gray-500 text-sm mt-2">
-              Modern digital platform for a growing business.
-            </p>
+            <p class="text-gray-500 text-sm mt-2">Modern digital platform for a growing business.</p>
           </article>
 
-          <article class="group">
-            <div
-              class="h-72 rounded-2xl bg-gray-950 flex items-center justify-center"
-            >
-              <span
-                class="text-7xl font-bold text-gray-800 group-hover:text-primary/40 transition"
-              >
+          <article class="group cursor-pointer">
+            <div class="h-72 rounded-2xl bg-gray-950 flex items-center justify-center overflow-hidden">
+              <span class="text-7xl font-bold text-gray-800 group-hover:text-primary group-hover:scale-110 transition-all duration-300">
                 02
               </span>
             </div>
-
-            <p class="text-primary text-sm font-semibold mt-6">
-              Web Application
-            </p>
-
+            <p class="text-primary text-sm font-semibold mt-6">Web Application</p>
             <h3 class="text-xl font-bold mt-2">Management System</h3>
-
-            <p class="text-gray-500 text-sm mt-2">
-              A practical application for managing business operations.
-            </p>
+            <p class="text-gray-500 text-sm mt-2">A practical application for managing business operations.</p>
           </article>
 
-          <article class="group">
-            <div
-              class="h-72 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center"
-            >
-              <span
-                class="text-7xl font-bold text-primary/20 group-hover:text-primary/40 transition"
-              >
+          <article class="group cursor-pointer">
+            <div class="h-72 rounded-2xl bg-gray-100 flex items-center justify-center overflow-hidden">
+              <span class="text-7xl font-bold text-gray-200 group-hover:text-primary group-hover:scale-110 transition-all duration-300">
                 03
               </span>
             </div>
-
             <p class="text-primary text-sm font-semibold mt-6">WordPress</p>
-
             <h3 class="text-xl font-bold mt-2">Corporate Website</h3>
-
-            <p class="text-gray-500 text-sm mt-2">
-              A custom WordPress website for a modern company.
-            </p>
+            <p class="text-gray-500 text-sm mt-2">A custom WordPress website for a modern company.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- =====================================================
-     PROCESS
-===================================================== -->
-
-    <section id="process" class="bg-gray-50 border-y border-gray-100">
+    <!-- Process: حذف خطوط بالای مراحل و استفاده از تایپوگرافی برای افکت شماره‌گذاری -->
+    <section id="process" class="bg-[#f5f6f4]">
       <div class="max-w-7xl mx-auto px-6 py-28">
-        <div class="max-w-2xl">
-          <div class="flex items-center gap-3">
-            <span class="w-10 h-px bg-primary"></span>
-
-            <span
-              class="text-primary font-semibold text-sm uppercase tracking-wider"
-            >
-              How We Work
-            </span>
-          </div>
-
-          <h2 class="text-4xl md:text-5xl font-bold mt-5">
+        <div class="max-w-2xl mb-16">
+          <span class="text-primary font-semibold text-sm uppercase tracking-wider">
+            How We Work
+          </span>
+          <h2 class="text-4xl md:text-5xl font-bold mt-4 tracking-tight">
             From idea to reality.
           </h2>
         </div>
 
-        <div class="grid md:grid-cols-4 mt-16">
-          <div class="border-t-2 border-primary pt-6 pr-8">
-            <span class="text-primary font-mono text-sm"> 01 </span>
-
+        <div class="grid md:grid-cols-4 gap-10">
+          <div>
+            <span class="text-primary font-mono text-sm font-bold">01</span>
             <h3 class="text-xl font-bold mt-4">Discover</h3>
-
             <p class="text-gray-500 text-sm leading-7 mt-3">
               We understand your goals, users and business requirements.
             </p>
           </div>
-
-          <div class="border-t border-gray-300 pt-6 pr-8">
-            <span class="text-gray-400 font-mono text-sm"> 02 </span>
-
+          <div>
+            <span class="text-gray-300 font-mono text-sm font-bold">02</span>
             <h3 class="text-xl font-bold mt-4">Design</h3>
-
             <p class="text-gray-500 text-sm leading-7 mt-3">
               We create a clear structure and intuitive user experience.
             </p>
           </div>
-
-          <div class="border-t border-gray-300 pt-6 pr-8">
-            <span class="text-gray-400 font-mono text-sm"> 03 </span>
-
+          <div>
+            <span class="text-gray-300 font-mono text-sm font-bold">03</span>
             <h3 class="text-xl font-bold mt-4">Develop</h3>
-
             <p class="text-gray-500 text-sm leading-7 mt-3">
               We turn the design into a reliable digital product.
             </p>
           </div>
-
-          <div class="border-t border-gray-300 pt-6">
-            <span class="text-gray-400 font-mono text-sm"> 04 </span>
-
+          <div>
+            <span class="text-gray-300 font-mono text-sm font-bold">04</span>
             <h3 class="text-xl font-bold mt-4">Launch</h3>
-
             <p class="text-gray-500 text-sm leading-7 mt-3">
               We test, refine and prepare the product for launch.
             </p>
@@ -577,135 +231,69 @@
       </div>
     </section>
 
-    <!-- =====================================================
-     CTA
-===================================================== -->
+    <!-- Contact CTA: ساده‌سازی دکمه و حذف المان‌های تزئینی اضافی -->
+    <section id="contact" class="bg-white px-6 py-28">
+      <div class="max-w-6xl mx-auto">
+        <div class="rounded-[2rem] bg-gray-950 px-8 py-20 md:px-16 relative overflow-hidden">
+          <div class="absolute -right-20 -bottom-40 w-96 h-96 rounded-full bg-primary/10 blur-3xl"></div>
 
-    <section id="contact" class="px-6 py-28 bg-white">
-      <div class="max-w-5xl mx-auto">
-        <div
-          class="relative overflow-hidden rounded-3xl bg-gray-950 px-8 py-20 md:px-16 text-center"
-        >
-          <div
-            class="absolute -top-32 -right-32 w-80 h-80 rounded-full bg-primary/20 blur-3xl"
-          ></div>
+          <div class="relative max-w-3xl">
+            <span class="text-gray-400 font-mono text-sm uppercase tracking-widest">
+              Have a project?
+            </span>
 
-          <div class="relative">
-            <p class="text-primary font-semibold">Start a conversation</p>
-
-            <h2 class="text-white text-4xl md:text-5xl font-bold mt-4">
-              Have a project in mind?
+            <h2 class="text-5xl md:text-7xl text-white font-bold tracking-tight mt-5">
+              Let's build<br/>something great.
             </h2>
 
-            <p class="text-gray-400 max-w-xl mx-auto mt-5 leading-7">
-              Let's discuss your idea and find the right digital solution for
-              your business.
-            </p>
-
-            <a
-              href="mailto:hello@abdolisoft.com"
-              class="inline-flex mt-9 bg-white text-gray-950 px-7 py-3.5 rounded-xl font-semibold hover:bg-primary hover:text-white transition"
-            >
-              Get in Touch
-              <span class="ml-2">→</span>
+            <a href="mailto:hello@abdolisoft.com" class="inline-flex items-center gap-3 mt-10 bg-primary text-white px-7 py-4 rounded-xl font-medium hover:bg-emerald-400 transition">
+              Start a conversation →
             </a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- =====================================================
-     FOOTER
-===================================================== -->
-
-    <footer class="bg-gray-950 text-white">
-      <div class="max-w-7xl mx-auto px-6 py-16">
-        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-12">
-          <!-- Brand -->
-
-          <div>
-            <div class="text-2xl font-bold">
+    <!-- Footer: ساده‌سازی ساختار و حذف کلمات اضافه -->
+    <footer class="bg-gray-950 text-white border-t border-gray-800">
+      <div class="max-w-7xl mx-auto px-6 pt-20 pb-8">
+        <div class="grid md:grid-cols-3 gap-12">
+          
+          <div class="md:col-span-1">
+            <div class="text-2xl font-bold tracking-tight">
               Abd<span class="text-primary">Oli</span>Soft
             </div>
-
-            <p class="text-gray-500 text-sm leading-7 mt-5 max-w-xs">
-              Building modern websites and digital products for modern
-              businesses.
+            <p class="text-gray-500 max-w-xs leading-7 mt-4 text-sm">
+              Modern digital products for businesses that want to move forward.
             </p>
           </div>
 
-          <!-- Company -->
-
           <div>
-            <h3 class="font-semibold">Company</h3>
-
+            <h3 class="font-semibold text-sm text-gray-400 uppercase tracking-wider">Explore</h3>
             <ul class="mt-5 space-y-3 text-sm text-gray-500">
-              <li>
-                <a href="#about" class="hover:text-primary transition">
-                  About Us
-                </a>
-              </li>
-
-              <li>
-                <a href="#projects" class="hover:text-primary transition">
-                  Projects
-                </a>
-              </li>
-
-              <li>
-                <a href="#process" class="hover:text-primary transition">
-                  Our Process
-                </a>
-              </li>
-
-              <li>
-                <a href="#contact" class="hover:text-primary transition">
-                  Contact
-                </a>
-              </li>
+              <li><a href="#about" class="hover:text-primary transition">About</a></li>
+              <li><a href="#services" class="hover:text-primary transition">Services</a></li>
+              <li><a href="#projects" class="hover:text-primary transition">Projects</a></li>
+              <li><a href="#contact" class="hover:text-primary transition">Contact</a></li>
             </ul>
           </div>
 
-          <!-- Services -->
-
           <div>
-            <h3 class="font-semibold">Services</h3>
-
-            <ul class="mt-5 space-y-3 text-sm text-gray-500">
-              <li>Web Development</li>
-              <li>UI / UX Design</li>
-              <li>WordPress</li>
-              <li>Web Applications</li>
-            </ul>
-          </div>
-
-          <!-- Contact -->
-
-          <div>
-            <h3 class="font-semibold">Get in touch</h3>
-
+            <h3 class="font-semibold text-sm text-gray-400 uppercase tracking-wider">Contact</h3>
             <div class="mt-5 space-y-3 text-sm text-gray-500">
-              <p>hello@abdolisoft.com</p>
-
+              <p>bazdarabdolkarim@gmail.com</p>
               <p>Tehran, Iran</p>
-
               <div class="flex gap-4 pt-3">
-                <a href="#" class="hover:text-primary transition"> GitHub </a>
-
-                <a href="#" class="hover:text-primary transition"> LinkedIn </a>
+                <a href="https://github.com/abdolkarim-dev" class="hover:text-primary transition">GitHub</a>
+                <a href="https://www.linkedin.com/in/abdolkarim-bazdar-2b2ba6107/" class="hover:text-primary transition">LinkedIn</a>
               </div>
             </div>
           </div>
         </div>
 
-        <div
-          class="border-t border-gray-800 mt-14 pt-7 flex flex-col md:flex-row justify-between gap-4"
-        >
-          <p class="text-sm text-gray-600">
-            © 2026 AbdOliSoft. All rights reserved.
-          </p>
-
-          <p class="text-sm text-gray-600">Designed & Built with care.</p>
+        <div class="border-t border-gray-800 mt-16 pt-7 flex flex-col md:flex-row justify-between gap-4">
+          <p class="text-sm text-gray-600">© 2026 AbdOliSoft</p>
+          <p class="text-sm text-gray-600">Built with ❤️</p>
         </div>
       </div>
     </footer>
